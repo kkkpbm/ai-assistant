@@ -1,1 +1,0 @@
-import{d as e}from"./index-CzbJfACc.js";const s=e("theme",{state:()=>({isDark:!1}),persist:{key:"theme-settings",storage:localStorage},actions:{toggleTheme(){this.isDark=!this.isDark,this.applyTheme()},applyTheme(){this.isDark?document.documentElement.classList.add("dark"):document.documentElement.classList.remove("dark")}}});export{s as u};
